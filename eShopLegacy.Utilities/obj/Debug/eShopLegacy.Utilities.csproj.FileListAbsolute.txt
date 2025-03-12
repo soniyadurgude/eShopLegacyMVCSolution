@@ -1,0 +1,6 @@
+C:\SASVA_Repos\MS_esShopWeb\eShopModernizing\eShopLegacyMVCSolution\eShopLegacy.Utilities\bin\Debug\eShopLegacy.Utilities.dll
+C:\SASVA_Repos\MS_esShopWeb\eShopModernizing\eShopLegacyMVCSolution\eShopLegacy.Utilities\bin\Debug\eShopLegacy.Utilities.pdb
+C:\SASVA_Repos\MS_esShopWeb\eShopModernizing\eShopLegacyMVCSolution\eShopLegacy.Utilities\obj\Debug\eShopLegacy.Utilities.csproj.AssemblyReference.cache
+C:\SASVA_Repos\MS_esShopWeb\eShopModernizing\eShopLegacyMVCSolution\eShopLegacy.Utilities\obj\Debug\eShopLegacy.Utilities.csproj.CoreCompileInputs.cache
+C:\SASVA_Repos\MS_esShopWeb\eShopModernizing\eShopLegacyMVCSolution\eShopLegacy.Utilities\obj\Debug\eShopLegacy.Utilities.dll
+C:\SASVA_Repos\MS_esShopWeb\eShopModernizing\eShopLegacyMVCSolution\eShopLegacy.Utilities\obj\Debug\eShopLegacy.Utilities.pdb
