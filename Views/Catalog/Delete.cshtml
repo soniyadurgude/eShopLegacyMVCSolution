@@ -1,0 +1,77 @@
+@model eShopLegacyMVC.Models.CatalogItem 
+@{ 
+    ViewData["Title"] = "Delete"; 
+} 
+<h2 class="esh-body-title">Delete</h2> 
+<div class="container"> 
+    <h3>Are you sure you want to delete this?</h3> 
+    <div class="row"> 
+        <img class="col-md-6 esh-picture" src="@Model.PictureUri" /> 
+        <dl class="col-md-6 dl-horizontal"> 
+            <dt> 
+                <label asp-for="Name"></label> 
+            </dt> 
+            <dd> 
+                <span>@Model.Name</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="Description"></label> 
+            </dt> 
+            <dd> 
+                <span>@Model.Description</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="CatalogBrand.Brand"></label> 
+            </dt> 
+            <dd> 
+                <span>@Model.CatalogBrand.Brand</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="CatalogType.Type"></label> 
+            </dt> 
+            <dd> 
+                <span>@Model.CatalogType.Type</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="Price"></label> 
+            </dt> 
+            <dd> 
+                <span>@Model.Price</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="PictureFileName"></label> 
+            </dt> 
+            <dd> 
+                <span>@Model.PictureFileName</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="AvailableStock"></label> 
+            </dt> 
+            <dd> 
+                <span>@Model.AvailableStock</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="RestockThreshold"></label> 
+            </dt> 
+            <dd> 
+                <span>@Model.RestockThreshold</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="MaxStockThreshold"></label> 
+            </dt> 
+            <dd> 
+                <span>@Model.MaxStockThreshold</span> 
+            </dd> 
+            <dt> 
+            </dt> 
+            <dd class="text-right esh-button-actions"> 
+                <form asp-action="Delete" method="post"> 
+                    @Html.AntiForgeryToken() 
+                    <input type="hidden" asp-for="Id" /> 
+                    <a asp-action="Index" class="btn esh-button esh-button-secondary">[ Cancel ]</a> 
+                    <button type="submit" class="btn esh-button esh-button-primary">[ Delete ]</button> 
+                </form> 
+            </dd> 
+        </dl> 
+    </div> 
+</div>

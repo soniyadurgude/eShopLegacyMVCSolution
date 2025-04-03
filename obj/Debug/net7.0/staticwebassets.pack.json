@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Images\\brand.png",
+      "PackagePath": "staticwebassets\\Images\\brand.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Images\\brand_dark.png",
+      "PackagePath": "staticwebassets\\Images\\brand_dark.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Images\\main_banner.png",
+      "PackagePath": "staticwebassets\\Images\\main_banner.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Images\\main_footer_text.png",
+      "PackagePath": "staticwebassets\\Images\\main_footer_text.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\1.png",
+      "PackagePath": "staticwebassets\\Pics\\1.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\10.png",
+      "PackagePath": "staticwebassets\\Pics\\10.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\11.png",
+      "PackagePath": "staticwebassets\\Pics\\11.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\12.png",
+      "PackagePath": "staticwebassets\\Pics\\12.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\2.png",
+      "PackagePath": "staticwebassets\\Pics\\2.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\3.png",
+      "PackagePath": "staticwebassets\\Pics\\3.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\4.png",
+      "PackagePath": "staticwebassets\\Pics\\4.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\5.png",
+      "PackagePath": "staticwebassets\\Pics\\5.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\6.png",
+      "PackagePath": "staticwebassets\\Pics\\6.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\7.png",
+      "PackagePath": "staticwebassets\\Pics\\7.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\8.png",
+      "PackagePath": "staticwebassets\\Pics\\8.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\9.png",
+      "PackagePath": "staticwebassets\\Pics\\9.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\Pics\\dummy.png",
+      "PackagePath": "staticwebassets\\Pics\\dummy.png"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\css\\Site.css",
+      "PackagePath": "staticwebassets\\css\\Site.css"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\css\\base.css",
+      "PackagePath": "staticwebassets\\css\\base.css"
+    },
+    {
+      "Id": "C:\\SasvaMigration\\EshopLegaceMVCSolutionMigration\\MigratedCode\\eShopLegacyMVCSolution\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.eShopLegacyMVC.props",
+      "PackagePath": "build\\eShopLegacyMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.eShopLegacyMVC.props",
+      "PackagePath": "buildMultiTargeting\\eShopLegacyMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.eShopLegacyMVC.props",
+      "PackagePath": "buildTransitive\\eShopLegacyMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.eShopLegacyMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.eShopLegacyMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

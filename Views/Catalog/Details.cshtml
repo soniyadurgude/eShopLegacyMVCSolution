@@ -1,0 +1,70 @@
+@model eShopLegacyMVC.Models.CatalogItem 
+@{ 
+    ViewData["Title"] = "Details"; 
+} 
+<h2 class="esh-body-title">Details</h2> 
+<div class="container"> 
+    <div class="row"> 
+        <img class="col-md-6 esh-picture" src="@Model.PictureUri" alt="Product Image" /> 
+        <dl class="col-md-6 dl-horizontal"> 
+            <dt> 
+                <label asp-for="Name"></label> 
+            </dt> 
+            <dd> 
+                <span asp-for="Name">@Model.Name</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="Description"></label> 
+            </dt> 
+            <dd> 
+                <span asp-for="Description">@Model.Description</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="CatalogBrand.Brand"></label> 
+            </dt> 
+            <dd> 
+                <span asp-for="CatalogBrand.Brand">@Model.CatalogBrand.Brand</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="CatalogType.Type"></label> 
+            </dt> 
+            <dd> 
+                <span asp-for="CatalogType.Type">@Model.CatalogType.Type</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="Price"></label> 
+            </dt> 
+            <dd> 
+                <span asp-for="Price">@Model.Price</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="PictureFileName"></label> 
+            </dt> 
+            <dd> 
+                <span asp-for="PictureFileName">@Model.PictureFileName</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="AvailableStock"></label> 
+            </dt> 
+            <dd> 
+                <span asp-for="AvailableStock">@Model.AvailableStock</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="RestockThreshold"></label> 
+            </dt> 
+            <dd> 
+                <span asp-for="RestockThreshold">@Model.RestockThreshold</span> 
+            </dd> 
+            <dt> 
+                <label asp-for="MaxStockThreshold"></label> 
+            </dt> 
+            <dd> 
+                <span asp-for="MaxStockThreshold">@Model.MaxStockThreshold</span> 
+            </dd> 
+        </dl> 
+    </div> 
+    <p class="esh-link-list esh-link-item--margin"> 
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="esh-link-item">Edit</a> | 
+        <a asp-action="Index" class="esh-link-item">Back to List</a> 
+    </p> 
+</div>

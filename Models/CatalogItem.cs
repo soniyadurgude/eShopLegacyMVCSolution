@@ -1,0 +1,42 @@
+using System.ComponentModel.DataAnnotations; 
+namespace eShopLegacyMVC.Models 
+{ 
+    public class CatalogItem 
+    { 
+        public const string DefaultPictureName = "dummy.png"; 
+        public CatalogItem() 
+        { 
+            PictureFileName = DefaultPictureName; 
+        } 
+        [Key] 
+        public int Id { get; set; } 
+        [Required] 
+        [StringLength(100)] 
+        public string Name { get; set; } 
+        [StringLength(1000)] 
+        public string Description { get; set; } 
+        [Range(0.01, double.MaxValue, ErrorMessage = "Price must be greater than zero")] 
+        public decimal Price { get; set; } 
+        [Display(Name = "Picture name")] 
+        public string PictureFileName { get; set; } 
+        public string PictureUri { get; set; } 
+        [Display(Name = "Type")] 
+        public int CatalogTypeId { get; set; } 
+        [Display(Name = "Type")] 
+        public CatalogType CatalogType { get; set; } 
+        [Display(Name = "Brand")] 
+        public int CatalogBrandId { get; set; } 
+        [Display(Name = "Brand")] 
+        public CatalogBrand CatalogBrand { get; set; } 
+        [Range(0, 10000000, ErrorMessage = "The field Stock must be between 0 and 10 million.")] 
+        [Display(Name = "Stock")] 
+        public int AvailableStock { get; set; } 
+        [Range(0, 10000000, ErrorMessage = "The field Restock must be between 0 and 10 million.")] 
+        [Display(Name = "Restock")] 
+        public int RestockThreshold { get; set; } 
+        [Range(0, 10000000, ErrorMessage = "The field Max stock must be between 0 and 10 million.")] 
+        [Display(Name = "Max stock")] 
+        public int MaxStockThreshold { get; set; } 
+        public bool OnReorder { get; set; } 
+    } 
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>@ViewData["Title"] - Catalog manager (MVC)</title> 
+    <link rel="stylesheet" href="~/css/bootstrap.css" asp-append-version="true" /> 
+    <link rel="stylesheet" href="~/css/Site.css" asp-append-version="true" /> 
+    <script src="~/js/modernizr-2.8.3.js" asp-append-version="true"></script> 
+</head> 
+<body> 
+    <header class="navbar navbar-light navbar-static-top"> 
+        <div class="esh-header-brand"> 
+            <a asp-controller="Catalog" asp-action="Index"> 
+                <img src="~/images/brand.png" alt="Brand" /> 
+            </a> 
+        </div> 
+    </header> 
+    <section class="esh-app-hero"> 
+        <div class="container esh-header"> 
+            <h1 class="esh-header-title">Catalog manager <span>(MVC)</span></h1> 
+        </div> 
+    </section> 
+    <div class="container"> 
+        @RenderBody() 
+    </div> 
+    <footer class="esh-app-footer"> 
+        <div class="container"> 
+            <article class="row"> 
+                <section class="col-sm-6"> 
+                    <img class="esh-app-footer-brand" src="~/images/brand_dark.png" alt="Brand Dark" /> 
+                </section> 
+                <section class="col-sm-6"> 
+                    <img class="esh-app-footer-text hidden-xs" src="~/images/main_footer_text.png" width="335" height="26" alt="footer text image" /> 
+                    <br /> 
+                    <small> 
+                        @* @{ 
+                            var sessionInfo = $"{HttpContext.Session.GetString("MachineName")}, {HttpContext.Session.GetString("SessionStartTime")}"; 
+                            @Html.Raw(sessionInfo) 
+                        } *@ 
+                    </small> 
+                </section> 
+            </article> 
+        </div> 
+    </footer> 
+    <script src="~/js/jquery-3.3.1.js" asp-append-version="true"></script> 
+    <script src="~/js/bootstrap.bundle.js" asp-append-version="true"></script> 
+    @RenderSection("scripts", required: false) 
+</body> 
+</html>
